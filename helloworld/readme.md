@@ -86,4 +86,19 @@ http {
 ## -c 执行nginx.conf 配置文件
 ```
 
+* lua 分离到单独的lua 文件:
 
+```shell
+
+....
+content_by_lua_file "lua/hello.lua";
+....
+
+```
+
+```shell
+
+cat lua/hello.lua
+ngx.say("Hello OpenRestry World!")
+
+```
