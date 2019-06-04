@@ -102,3 +102,9 @@ cat lua/hello.lua
 ngx.say("Hello OpenRestry World!")
 
 ```
+
+* 内部查看文档:
+```shell
+/data0/openrestry/bin/restydoc -s "proxy_pass"
+/data0/openrestry/bin/restydoc -s "ngx.say"
+```
