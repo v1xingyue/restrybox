@@ -47,9 +47,11 @@ http {
 
         access_log  logs/host.access.log  main;
 
+    
         location / {
-            root   html;
-            index  index.html index.htm;
+            content_by_lua '
+                ngx.say("hello, world")
+            ';
         }
 
         error_page  404              /404.html;
