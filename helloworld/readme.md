@@ -73,6 +73,8 @@ http {
 
 ```
 
+* 复制conf 中的 mime.types 
+
 * 启动openrestry:
 
 ```shell
@@ -81,4 +83,5 @@ http {
 ## -p 指定启动目录
 ## -c 执行nginx.conf 配置文件
 ```
+
 
