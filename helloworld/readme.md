@@ -108,3 +108,9 @@ ngx.say("Hello OpenRestry World!")
 /data0/openrestry/bin/restydoc -s "proxy_pass"
 /data0/openrestry/bin/restydoc -s "ngx.say"
 ```
+
+* 开启luacache:
+
+```shell
+lua_code_cache on 
+```
